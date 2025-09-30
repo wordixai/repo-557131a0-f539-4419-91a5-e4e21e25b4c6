@@ -14,7 +14,7 @@ export default function FeaturedSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-12 gap-8">
           <div className="md:col-span-4">
-            <h2 className="text-3xl font-medium">精选内容</h2>
+            <h2 className="text-3xl font-medium">Featured</h2>
           </div>
 
           <div className="md:col-span-8">
