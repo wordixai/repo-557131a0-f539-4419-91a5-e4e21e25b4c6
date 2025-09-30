@@ -11,38 +11,38 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-medium mb-4">Products</h3>
+            <h3 className="font-medium mb-4">产品</h3>
             <ul className="space-y-2 text-sm opacity-70">
               <li><a href="/claude" className="hover:opacity-100">Claude</a></li>
               <li><a href="/claude-code" className="hover:opacity-100">Claude Code</a></li>
-              <li><a href="/pricing" className="hover:opacity-100">Pricing</a></li>
+              <li><a href="/pricing" className="hover:opacity-100">定价</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-medium mb-4">Learn</h3>
+            <h3 className="font-medium mb-4">学习</h3>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="/learn" className="hover:opacity-100">Courses</a></li>
-              <li><a href="/customers" className="hover:opacity-100">Customer stories</a></li>
-              <li><a href="/engineering" className="hover:opacity-100">Engineering</a></li>
+              <li><a href="/learn" className="hover:opacity-100">课程</a></li>
+              <li><a href="/customers" className="hover:opacity-100">客户案例</a></li>
+              <li><a href="/engineering" className="hover:opacity-100">工程</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-medium mb-4">Company</h3>
+            <h3 className="font-medium mb-4">公司</h3>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="/company" className="hover:opacity-100">About</a></li>
-              <li><a href="/careers" className="hover:opacity-100">Careers</a></li>
-              <li><a href="/research" className="hover:opacity-100">Research</a></li>
-              <li><a href="/news" className="hover:opacity-100">News</a></li>
+              <li><a href="/company" className="hover:opacity-100">关于</a></li>
+              <li><a href="/careers" className="hover:opacity-100">职业</a></li>
+              <li><a href="/research" className="hover:opacity-100">研究</a></li>
+              <li><a href="/news" className="hover:opacity-100">新闻</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-medium mb-4">Terms and policies</h3>
+            <h3 className="font-medium mb-4">条款和政策</h3>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="/legal/privacy" className="hover:opacity-100">Privacy policy</a></li>
-              <li><a href="/legal/terms" className="hover:opacity-100">Terms of service</a></li>
+              <li><a href="/legal/privacy" className="hover:opacity-100">隐私政策</a></li>
+              <li><a href="/legal/terms" className="hover:opacity-100">服务条款</a></li>
             </ul>
           </div>
         </div>

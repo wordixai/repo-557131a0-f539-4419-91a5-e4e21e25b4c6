@@ -18,24 +18,24 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/research" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">Research</a>
-            <a href="/economic-futures" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">Economic Futures</a>
+            <a href="/research" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">研究</a>
+            <a href="/economic-futures" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">经济未来</a>
             
             <div className="relative group">
               <button className="flex items-center text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">
-                Commitments
+                承诺
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
             </div>
 
             <div className="relative group">
               <button className="flex items-center text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">
-                Learn
+                学习
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
             </div>
 
-            <a href="/news" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">News</a>
+            <a href="/news" className="text-sm font-medium hover:text-[hsl(var(--accent))] transition-colors">新闻</a>
           </div>
 
           {/* CTA Buttons */}
@@ -46,7 +46,7 @@ export default function Navigation() {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm font-medium border border-[hsl(var(--border))] rounded-xl hover:bg-[hsl(var(--muted))] transition-colors"
             >
-              Log in to Claude
+              登录 Claude
             </a>
             <a 
               href="https://claude.ai/" 
@@ -54,7 +54,7 @@ export default function Navigation() {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm font-medium bg-[hsl(var(--accent))] text-white rounded-xl hover:opacity-90 transition-opacity"
             >
-              Try Claude
+              试用 Claude
             </a>
           </div>
 
@@ -72,9 +72,9 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-[hsl(var(--border))] bg-[hsl(var(--ivory-medium))]">
           <div className="container mx-auto px-4 py-4 space-y-4">
-            <a href="/research" className="block py-2 text-sm font-medium">Research</a>
-            <a href="/economic-futures" className="block py-2 text-sm font-medium">Economic Futures</a>
-            <a href="/news" className="block py-2 text-sm font-medium">News</a>
+            <a href="/research" className="block py-2 text-sm font-medium">研究</a>
+            <a href="/economic-futures" className="block py-2 text-sm font-medium">经济未来</a>
+            <a href="/news" className="block py-2 text-sm font-medium">新闻</a>
             <div className="pt-4 space-y-2">
               <a 
                 href="https://claude.ai/login" 
@@ -82,7 +82,7 @@ export default function Navigation() {
                 rel="noopener noreferrer"
                 className="block w-full px-4 py-2 text-sm font-medium text-center border border-[hsl(var(--border))] rounded-xl"
               >
-                Log in to Claude
+                登录 Claude
               </a>
               <a 
                 href="https://claude.ai/" 
@@ -90,7 +90,7 @@ export default function Navigation() {
                 rel="noopener noreferrer"
                 className="block w-full px-4 py-2 text-sm font-medium text-center bg-[hsl(var(--accent))] text-white rounded-xl"
               >
-                Try Claude
+                试用 Claude
               </a>
             </div>
           </div>

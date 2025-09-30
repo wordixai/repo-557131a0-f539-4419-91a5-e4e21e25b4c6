@@ -7,7 +7,7 @@ export default function Hero() {
     setWordsAnimated(true);
   }, []);
 
-  const words = ['AI', 'research', 'and', 'products', 'that', 'put', 'safety', 'at', 'the', 'frontier'];
+  const words = ['AI', '研究', '和', '产品', '让', '安全', '处于', '前沿'];
 
   return (
     <section className="py-16 md:py-24 bg-[hsl(var(--ivory-medium))]">
@@ -23,11 +23,11 @@ export default function Hero() {
                   }`}
                   style={{ transitionDelay: `${index * 50}ms` }}
                 >
-                  {word === 'research' ? (
+                  {word === '研究' ? (
                     <a href="/research" className="hover:text-[hsl(var(--accent))] transition-colors underline decoration-2 underline-offset-4">
                       {word}
                     </a>
-                  ) : word === 'products' ? (
+                  ) : word === '产品' ? (
                     <a href="/claude" className="hover:text-[hsl(var(--accent))] transition-colors underline decoration-2 underline-offset-4">
                       {word}
                     </a>
@@ -39,7 +39,7 @@ export default function Hero() {
               ))}
             </h1>
             <p className="text-xl max-w-2xl text-[hsl(var(--muted-foreground))]">
-              AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks.
+              AI 将对世界产生巨大影响。Anthropic 是一家公益公司，致力于确保其利益并减轻其风险。
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function Hero() {
             <div className="w-full max-w-xs">
               <img 
                 src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=400&fit=crop" 
-                alt="AI illustration" 
+                alt="AI 插图" 
                 className="w-full h-auto rounded-3xl"
               />
             </div>
