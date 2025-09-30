@@ -14,7 +14,7 @@ export default function VideoSection() {
                 <>
                   <img 
                     src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=450&fit=crop" 
-                    alt="视频缩略图" 
+                    alt="Video thumbnail" 
                     className="w-full h-full object-cover"
                   />
                   <button 
@@ -30,7 +30,7 @@ export default function VideoSection() {
                 <iframe
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/fGKNUvivvnc?autoplay=1"
-                  title="视频播放器"
+                  title="Video Player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
@@ -41,7 +41,7 @@ export default function VideoSection() {
           <div className="md:col-span-4">
             <div className="text-6xl md:text-8xl font-serif mb-4">"</div>
             <p className="text-xl md:text-2xl font-medium">
-              当你与大型语言模型交谈时，你到底在与什么交谈？
+              When you're talking to a large language model, what exactly is it that you're talking to?
             </p>
           </div>
         </div>
